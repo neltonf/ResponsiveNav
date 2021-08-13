@@ -9,8 +9,7 @@ function toggleMenu() {
     mobile.style.transform = "rotate(90deg)";
   } else {
     menu.classList.add("showMenu");
-    xIcon.style.display = "block";
-    menuIcon.style.display = "none";
+    mobile.style.transform = "rotate(0deg)";
   }
 }
 
